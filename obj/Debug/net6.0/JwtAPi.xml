@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JwtAPi</name>
+    </assembly>
+    <members>
+        <member name="M:JwtAPi.Controllers.HomeController.Anonymos">
+            <summary>
+            Permite que vc entre mesmo sendo um anonimo
+            </summary>
+        </member>
+    </members>
+</doc>
