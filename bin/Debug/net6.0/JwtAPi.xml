@@ -6,7 +6,22 @@
     <members>
         <member name="M:JwtAPi.Controllers.HomeController.Anonymos">
             <summary>
-            Permite que vc entre mesmo sendo um anonimo
+            Permite que vc tenha acesso a informação mesmo sendo um anonimo
+            </summary>
+        </member>
+        <member name="M:JwtAPi.Controllers.HomeController.Authenticaded">
+            <summary>
+            Permite que vc tenha acesso a informação de que logou 
+            </summary>
+        </member>
+        <member name="M:JwtAPi.Controllers.HomeController.VilanResponse">
+            <summary>
+            Permite que vc tenha acesso se vc for Vilão
+            </summary>
+        </member>
+        <member name="M:JwtAPi.Controllers.HomeController.HeroResponse">
+            <summary>
+            Permite que vc tenha acesso se vc for Heroi
             </summary>
         </member>
     </members>

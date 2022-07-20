@@ -15,7 +15,7 @@ namespace JwtAPi.Controllers
             [Route("Login")]
             public async Task<ActionResult<dynamic>> AuthenticateAsync([FromBody] LoginUser users)
             {
-                // Recupa o usuario 
+                // Recupera o usuario 
                 var user = UserRepository.GetUser(users.UserName, users.Password);
 
                 // Se o usuario ser Nulo e se ele existir gerar o Token
